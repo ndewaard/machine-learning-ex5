@@ -15,7 +15,9 @@ X_poly = zeros(numel(X), p);
 %
 % 
 
-
+for idx = 1:p
+	X_poly(:, idx) = X.^idx;
+end
 
 
 
